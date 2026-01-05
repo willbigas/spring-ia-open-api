@@ -79,6 +79,38 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "recipe-creator?ingredients={ingredients}&dietary-restrictions={dietary-restrictions}&cuisine={cuisine}",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/recipe-creator?ingredients=rice,beans,beef,salad&dietary-restrictions=free&cuisine=brazilian",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"recipe-creator"
+					],
+					"query": [
+						{
+							"key": "ingredients",
+							"value": "rice,beans,beef,salad"
+						},
+						{
+							"key": "dietary-restrictions",
+							"value": "free"
+						},
+						{
+							"key": "cuisine",
+							"value": "brazilian"
+						}
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
